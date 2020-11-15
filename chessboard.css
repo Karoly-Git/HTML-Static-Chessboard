@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 36.75rem;
+    width: 36.75rem;
+    display: grid;
+    margin: 10px;
+    border: 0.25rem solid black;
+    grid-template-columns: repeat(10, auto);
+    justify-content: center;
+    align-content: center;
+}
+
+.black, .white {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 4rem;
+    width: 4rem;
+}
+
+.border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    width: 4rem;
+    font-weight: 700;
+    font-size: 1.25rem;
+    background: rgb(109, 36, 36);
+    color: white;
+}
+
+.black {
+    background: black;
+}
+.white {
+    background: white;
+}
+
+.top {
+    height: 2rem;
+}
+
+.bottom {
+    height: 2rem;
+}
+
+.side {
+    width: 2rem;
+}
+
+.rock, .knight, .bishop, .king, .queen {
+    margin-bottom: 2px;
+}
+
+.pawn {
+    margin-bottom: 5px;
+}
+
+.rock {
+    height: 80%;
+}
+
+.knight {
+    height: 85%;
+}
+
+.bishop {
+    height: 85%;
+}
+
+.king {
+    height: 95%;
+}
+
+.queen {
+    height: 90%;
+}
+
+.pawn {
+    height: 63%;
+}
+
+.filtered {
+    filter: grayscale(1);
+}
